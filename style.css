@@ -1,16 +1,16 @@
 body{
     margin: 0px;
-}
-h1{
-    color:brown;
-}
+}  
 
 .header{
     background-image: url("pw/bg1.png");
     background-repeat: no-repeat;
-    height: 25%;
+    background-position: absolute ;
     display: flex;
     flex-direction: left;
+    padding-bottom: 200px ;
+    padding-top: 100px;
+    padding-left: 300px;
     
 }
 .head1{
@@ -28,42 +28,53 @@ h1{
 button{
     padding: 10px;
     margin: 20px;
-    background-color: brown;
+    background-color:  rgba(38, 3, 73, 0.856);
     color: white;
     cursor: pointer;
+    border: 1px solid  rgba(38, 3, 73, 0.856);
+    border-radius: 3px;
 
+}
+button:hover{
+    background-color: black;
+    padding: 12px;
+    margin: 22px;
 }
 .mid1{
     background-image: url("pw/bg2.png");
     background-repeat: no-repeat;
-    height: 25%;
     display: flex;
 
-
+    padding-bottom: 200px;
+    padding-left: 100px;
+    padding-top: 80px;
 }
 .middle-2{
-    padding: 30px 10px 20px 30px;
+    padding: 100px 10px 20px 30px;
     width: 45%;
     flex-direction: left;
 
 }
 .middle-1{
-    padding: 30px 20px 20px 20px;
+    padding: 30px 20px 20px 40px;
     width: 45%;
+
 }
 
 .mid2 img{
     padding: 20px ;
+    
 
 }
 
 .mid2{
-    height: 25%;
+
     background-image: url("pw/bg3.png");
     background-repeat: no-repeat;
     text-align: center;
     justify-items:center;
     align-items: center;
+    padding-bottom: 200px;
     
 }
 .footer{
@@ -71,13 +82,14 @@ button{
     background-repeat: no-repeat;
     text-align: center;
     justify-items:center;
-    height: 25%;
+    padding-bottom: 50px;
     align-items: center;
 
 }
 .box{
     color: white;
-    background-color: rebeccapurple;
+    background-color: rgba(38, 3, 73, 0.856);
     padding: 10px 20px;
     margin: 5% 25%;
+    border-radius: 10px;
 }
