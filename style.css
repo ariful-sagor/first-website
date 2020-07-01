@@ -1,0 +1,83 @@
+body{
+    margin: 0px;
+}
+h1{
+    color:brown;
+}
+
+.header{
+    background-image: url("pw/bg1.png");
+    background-repeat: no-repeat;
+    height: 25%;
+    display: flex;
+    flex-direction: left;
+    
+}
+.head1{
+    padding: 30px 10px 20px 30px;
+    width: 45%;
+ /*   float: left;
+*/
+}
+.head2{
+    /*
+    float: right; */
+    padding: 30px 20px 20px 20px;
+    width: 45%;
+}
+button{
+    padding: 10px;
+    margin: 20px;
+    background-color: brown;
+    color: white;
+    cursor: pointer;
+
+}
+.mid1{
+    background-image: url("pw/bg2.png");
+    background-repeat: no-repeat;
+    height: 25%;
+    display: flex;
+
+
+}
+.middle-2{
+    padding: 30px 10px 20px 30px;
+    width: 45%;
+    flex-direction: left;
+
+}
+.middle-1{
+    padding: 30px 20px 20px 20px;
+    width: 45%;
+}
+
+.mid2 img{
+    padding: 20px ;
+
+}
+
+.mid2{
+    height: 25%;
+    background-image: url("pw/bg3.png");
+    background-repeat: no-repeat;
+    text-align: center;
+    justify-items:center;
+    align-items: center;
+    
+}
+.footer{
+    background-image: url("pw/bg4.png");
+    background-repeat: no-repeat;
+    text-align: center;
+    justify-items:center;
+    height: 25%;
+    align-items: center;
+
+}
+.box{
+    color: white;
+    background-color: rebeccapurple;
+    padding: 10px 20px;
+    margin: 5% 25%;
+}
